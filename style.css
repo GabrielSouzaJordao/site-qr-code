@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(150, 150, 150);
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.moldura {
+    max-width: 600px;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+    height: 800px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3%;
+
+}
+
+.moldura img {
+    border-radius: 3%;
+}
+
+.moldura h1 {
+    font-family: "";
+    font-size: 40px;
+    max-width: 500px;
+}
+
+.moldura p {
+    font-size: 18px;
+    max-width: 500px;
+    font-family: "";
+}
